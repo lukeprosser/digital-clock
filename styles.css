@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-image: url('https://images.pexels.com/photos/169789/pexels-photo-169789.jpeg');
+}
+
+.main {
+  position: relative;
+  padding: 30px;
+  background: #ccc;
+  width: 400px;
+  margin: 100px auto;
+  height: 175px;
+}
+
+.badge {
+  position: absolute;
+  top: -15px;
+  left: 38%;
+  width: 96px;
+  background: #e66357;
+  color: white;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.clock {
+  height: 100%;
+  padding-top: 30px;
+  background: #ebebeb;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 4px;
+}
